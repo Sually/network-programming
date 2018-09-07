@@ -20,10 +20,10 @@ def process(request, client_addr):
             coon.sendall('please type again')
 
 s1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s1.bind(('127.0.0.1', 20001))
+s1.bind(('172.28.156.205', 20001))
 s1.listen(5)
 s2 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s2.bind(('127.0.0.1', 20002))
+s2.bind(('172.28.156.205', 20002))
 s2.listen(5)
 
 while True:

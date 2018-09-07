@@ -3,7 +3,7 @@
 import socket
 
 
-ip_port = ('127.0.0.1', 20001)
+ip_port = ('172.28.156.205', 20001)
 sk = socket.socket()
 sk.connect(ip_port)
 sk.settimeout(5)
